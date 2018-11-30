@@ -4,7 +4,7 @@ This repository contains the content for the Digiral Archive site. The project c
 
 The site being deployed on Netlify:
 
-[http://delft-digital-archive.netlify.com](http://delft-digital-archive.netlify.com)
+[https://delft-digital-archive.netlify.com](https://delft-digital-archive.netlify.com)
 
 ## Testing Locally
 
