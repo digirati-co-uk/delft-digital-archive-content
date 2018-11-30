@@ -8,7 +8,7 @@ The site being deployed on Netlify:
 
 ## Testing Locally
 
-Please install yarn and gatsby.js globally.
+Please install [yarn](https://yarnpkg.com/lang/en/docs/install/#mac-stable) and [gatsby.js](https://www.gatsbyjs.org/docs/) **globally**. 
 
 To install this project run:
 
