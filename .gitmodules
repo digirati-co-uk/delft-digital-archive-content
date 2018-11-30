@@ -1,0 +1,3 @@
+[submodule "delft-static-site-generator"]
+	path = delft-static-site-generator
+	url = git@github.com:digirati-co-uk/delft-static-site-generator.git
