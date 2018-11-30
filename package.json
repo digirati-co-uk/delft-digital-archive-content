@@ -10,7 +10,7 @@
     "local:install": "rm -rf ./delft-static-site-generator && git clone git@github.com:digirati-co-uk/delft-static-site-generator.git && npm run link",
     "link": "cd delft-static-site-generator && yarn install && rm -rf ./.git && rm -rf ./content/ && rm -rf ./src/collections && rm -rf ./src/exhibitions && rm -rf ./src/objects && cd .. && ln -s $PWD/content $PWD/delft-static-site-generator/content && ln -s $PWD/collections $PWD/delft-static-site-generator/src/collections && ln -s $PWD/exhibitions $PWD/delft-static-site-generator/src/exhibitions && ln -s $PWD/objects $PWD/delft-static-site-generator/src/objects",
     "local:run": "cd delft-static-site-generator && gatsby develop --host 127.0.0.1",
-    "release": "npm run link && cd delft-static-site-generator && gatsby build"
+    "release": "npm run link"
 
   }
 }
